@@ -21,6 +21,6 @@ jobs:
         needs: [run-shell-commands, parallel-job-macos]
         steps:
             - name: echo a string
-              run: Write-OutPut "Windows Job"
+              run: Write-Output "Windows Job"
             - name: Error Step
-              run: doesnotexits
+              run: doesnotexitss
