@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Simple JS Action
         id: greeting
-        uses: ageev-gh-actions@31e2d3e550db944af350a642f64bd5820f2424b7
+        uses: ageev-gh-actions/gh-code@31e2d3e550db944af350a642f64bd5820f2424b7
         with:
           who-to-green: Alex
       - name: Log Greeting Time
