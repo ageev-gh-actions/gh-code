@@ -1,4 +1,4 @@
-name: Manually Triggered
+name: Manually Triggered # https://api.github.com/repos/ageev-gh-actions/gh-actions/actions/workflows/manually-triggered.yaml/dispaches
 on:
   workflow_dispatch:
     inputs:
