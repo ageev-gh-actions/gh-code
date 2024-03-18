@@ -1,0 +1,2 @@
+gpg --symmetric --cipher-algo AES256 secrets.json
+gpg --decrypt --passphrase="123456" --output .\decrypted.json secrets.json.gpg
